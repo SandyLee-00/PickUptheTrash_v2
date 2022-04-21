@@ -866,3 +866,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 966.905465 seconds.
+  path: Assets/Fonts
+  artifactKey: Guid(8c926f31cb09148bd842b1d652dd5a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts using Guid(8c926f31cb09148bd842b1d652dd5a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14944036f75ec2c9932f90cb7a8a66fc') in 0.026906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 157.664087 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(ca8086d160b4d48fa952be0a15b25f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(ca8086d160b4d48fa952be0a15b25f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6a6c33ce661773b5cf865cb75efba4') in 0.007779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 209.999231 seconds.
+  path: Assets/Scenes/Part2_Recycling/Throw.unity
+  artifactKey: Guid(a55d78000426a4ebdb9299b4758aa752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Part2_Recycling/Throw.unity using Guid(a55d78000426a4ebdb9299b4758aa752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df8534f3d7735ea173825e634e1bd41a') in 0.053527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.586100 seconds.
+  path: Assets/Scripts/Part2_Recycling/ThrowMouse.cs
+  artifactKey: Guid(0b863d34ee9504e389c21234966bbaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Part2_Recycling/ThrowMouse.cs using Guid(0b863d34ee9504e389c21234966bbaa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c788f68e39bf3203c7f0bcf9d0887f9b') in 0.007185 seconds 
