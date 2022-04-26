@@ -8,11 +8,15 @@ TagManager:
   - Metal
   - Plastic
   - Organic
+  - can
+  - bottle
+  - battery
+  - normal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - trash
   - Water
   - UI
   - 
