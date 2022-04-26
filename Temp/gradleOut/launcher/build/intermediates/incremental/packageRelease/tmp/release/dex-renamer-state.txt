@@ -1,0 +1,4 @@
+#Tue Apr 26 15:14:30 KST 2022
+base.0=C\:\\Users\\Shieun\\Documents\\IMP\\TeamProject\\AR\\PickUptheTrash_v2\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
