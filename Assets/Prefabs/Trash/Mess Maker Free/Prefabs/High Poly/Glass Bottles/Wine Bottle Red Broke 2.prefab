@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6913623427527270190}
   - component: {fileID: 8089886094914715161}
   - component: {fileID: 4312728383062020283}
-  - component: {fileID: 1332314560172780016}
   - component: {fileID: 1753554022348555722}
   m_Layer: 0
   m_Name: Wine Bottle Red Broke 2
@@ -83,22 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &1332314560172780016
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8322863303335674192}
-  serializedVersion: 2
-  m_Mass: 25
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1753554022348555722
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -5,13 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Paper
-  - Metal
   - Plastic
-  - Organic
-  - can
-  - bottle
-  - battery
-  - normal
+  - MetalandGlass
+  - General
   layers:
   - Default
   - TransparentFX

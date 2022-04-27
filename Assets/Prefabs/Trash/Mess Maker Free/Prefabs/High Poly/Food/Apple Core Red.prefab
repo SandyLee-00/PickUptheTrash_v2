@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 7512023185531021596}
   - component: {fileID: 3804437262499256703}
   - component: {fileID: 7122666863795742170}
-  - component: {fileID: 1264452525049113838}
   - component: {fileID: -8808151757232200554}
   m_Layer: 0
   m_Name: Apple Core Red
@@ -83,22 +82,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &1264452525049113838
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124406358728296116}
-  serializedVersion: 2
-  m_Mass: 25
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &-8808151757232200554
 BoxCollider:
   m_ObjectHideFlags: 0
