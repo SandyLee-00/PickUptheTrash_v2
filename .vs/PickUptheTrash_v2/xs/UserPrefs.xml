@@ -1,9 +1,7 @@
-﻿<Properties>
+﻿<Properties StartupConfiguration="{EC279A91-3F28-95A2-B741-2268E6021D91}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Part2_Recycling/SpawnTrash.cs">
     <Files>
-      <File FileName="Assets/Scripts/Part2_Recycling/ThrowTrash.cs" Line="131" Column="48" />
-      <File FileName="Assets/Scripts/Part2_Recycling/SpawnTrash.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/Part2_Recycling/ThrowMouse.cs" />
+      <File FileName="Assets/Scripts/Part2_Recycling/SpawnTrash.cs" Line="136" Column="62" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
