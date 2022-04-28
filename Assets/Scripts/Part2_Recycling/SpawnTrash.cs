@@ -31,8 +31,6 @@ public class SpawnTrash : MonoBehaviour
 
     public float throwSpeed;
 
-    private bool isthrow = false;
-
     //float timer;
 
     //소리 추가
@@ -53,36 +51,16 @@ public class SpawnTrash : MonoBehaviour
         if (mousePressed)
         {
             mousePosition = Input.mousePosition;
-
-            //쓰레기 있으면 기존 쓰레기 없애기
-            if (spawnedTrash != null && isthrow == true)
-            {
-                GameManager.score -= 1;
-            }
+           
         }
         //쓰레기 없으면 새로 만들기
         if (spawnedTrash == null)
         {
             spawnTrash();
-            isthrow = false;
             //맞으면 점수 +2
             GameManager.score += 2;
         }
 
-        //if (isthrow == true)
-        //{
-        //    timer += Time.deltaTime;
-        //    Debug.Log(timer);
-        //    if (timer > 5)
-        //    {
-        //        isthrow = false;
-        //        Destroy(spawnedTrash);
-        //        timer = 0;
-        //    }
-        //}
-    }
-    private void FixedUpdate()
-    {
         //쓰레기통 클릭하면 쓰레기통 타입 받아오기
         Ray ray = Camera.main.ScreenPointToRay(mousePosition);
         RaycastHit hit;
@@ -99,7 +77,6 @@ public class SpawnTrash : MonoBehaviour
             //쓰레기와 쓰레기통 태그 같으면 쓰레기 없애기
             if (trashbinType == trashType)
             {
-                isthrow = true;
                 //Debug.Log("TrashPos : " + trashPos);
                 //Debug.Log("TrashbinPos : " + trashbinPos);
                 Debug.Log("Sucess!");
@@ -111,13 +88,28 @@ public class SpawnTrash : MonoBehaviour
             }
             else
             {
-                isthrow = true;
+                GameManager.score -= 1;
                 Debug.Log("Retry!");
-
                 audioSource.clip = failure;
                 audioSource.Play();
             }
         }
+
+        //if (isthrow == true)
+        //{
+        //    timer += Time.deltaTime;
+        //    Debug.Log(timer);
+        //    if (timer > 5)
+        //    {
+        //        isthrow = false;
+        //        Destroy(spawnedTrash);
+        //        timer = 0;
+        //    }
+        //}
+    }
+    private void FixedUpdate()
+    {
+        
         //if (isthrow == true && spawnedTrash != null)
         //{
         //    trashToTrashbin(trashbinPos, trashPos);
