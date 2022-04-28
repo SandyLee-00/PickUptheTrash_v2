@@ -35,6 +35,9 @@ public class SpawnTrash : MonoBehaviour
 
     //float timer;
 
+    //점수 얻기
+    public int score;
+
     //소리 추가 
 
     void Start()
@@ -101,11 +104,13 @@ public class SpawnTrash : MonoBehaviour
                 //Debug.Log("TrashbinPos : " + trashbinPos);
                 Debug.Log("Sucess!");
                 Destroy(spawnedTrash);
+                score += 2;
 
             }
             else
             {
                 Debug.Log("Retry!");
+                score -= 1;
             }
         }
         //if (isthrow == true && spawnedTrash != null)
