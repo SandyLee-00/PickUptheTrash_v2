@@ -10,12 +10,9 @@ public class ChangeScene : MonoBehaviour
     {
         if(SceneManager.GetActiveScene().name == "Recycle")
         {
-            SceneManager.LoadScene("Pickingroad");
+            SceneManager.LoadScene("Pickingroad_Sieun");
         }
-        if(SceneManager.GetActiveScene().name == "Pickingroad")
-        {
-            SceneManager.LoadScene("Recycle");
-        }
+        
 
     }
 }

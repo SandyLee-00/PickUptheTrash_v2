@@ -1,16 +1,17 @@
 ﻿<Properties StartupConfiguration="{EC279A91-3F28-95A2-B741-2268E6021D91}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeScene.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ChangeScenetoRecycle.cs">
     <Files>
       <File FileName="Assets/Scripts/Part2_Recycling/SpawnTrash.cs" Line="136" Column="52" />
-      <File FileName="Assets/Scripts/Part2_Recycling/ShowScore.cs" Line="10" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="18" Column="54" />
-      <File FileName="Assets/Scripts/Part2_Recycling/ShowSpawnedTrashName.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/ChangeScene.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Part2_Recycling/ShowScore.cs" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/Part2_Recycling/ShowSpawnedTrashName.cs" />
+      <File FileName="Assets/Scripts/ChangeScene.cs" Line="15" Column="9" />
+      <File FileName="Assets/Scripts/ChangeScenetoRecycle.cs" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="913dcc5a-a533-4b69-8477-941d6f5df816" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="07b032ed-4a47-4ec6-9337-1cb9fc51615b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
