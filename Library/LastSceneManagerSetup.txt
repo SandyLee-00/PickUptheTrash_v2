@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/CrowArt - PBR Cardboard Box/Demo.unity
+- path: Assets/Scenes/Part2_Recycling/Recycle.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

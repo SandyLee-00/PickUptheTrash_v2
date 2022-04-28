@@ -35,12 +35,15 @@ public class SpawnTrash : MonoBehaviour
 
     //float timer;
 
-    //소리 추가 
+    //소리 추가
+    private AudioSource audioSource;
+    public AudioClip success;
+    public AudioClip failure;
 
     void Start()
     {
         spawnTrash();
-
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -101,12 +104,18 @@ public class SpawnTrash : MonoBehaviour
                 //Debug.Log("TrashbinPos : " + trashbinPos);
                 Debug.Log("Sucess!");
                 Destroy(spawnedTrash);
-                                
+
+                audioSource.clip = success;
+                audioSource.Play();
+
             }
             else
             {
                 isthrow = true;
                 Debug.Log("Retry!");
+
+                audioSource.clip = failure;
+                audioSource.Play();
             }
         }
         //if (isthrow == true && spawnedTrash != null)
