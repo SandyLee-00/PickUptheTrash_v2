@@ -1,9 +1,12 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ChangeScene
+    - RandomPosition
     - ShowScore
     - ShowSpawnedTrashName
     - SpawnTrash
+    - Throw
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Timeline.Editor.dll:
@@ -17,8 +20,10 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARCameraManager
     - UnityEngine.XR.ARFoundation.ARInputManager
     - UnityEngine.XR.ARFoundation.ARPoseDriver
+    - UnityEngine.XR.ARFoundation.ARRaycastManager
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
+    - UnityEngine.XR.ARFoundation.ARTrackedImageManager
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -37,10 +42,101 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/Part1_Picking/Pickingroad.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
+      Script: {instanceID: 1998}
+    - Class: 114
+      Script: {instanceID: 2288}
+    - Class: 114
+      Script: {instanceID: 2570}
+    - Class: 114
+      Script: {instanceID: 2842}
+    - Class: 114
+      Script: {instanceID: 3382}
+    - Class: 114
+      Script: {instanceID: 32624}
+    - Class: 114
+      Script: {instanceID: 32630}
+    - Class: 114
+      Script: {instanceID: 32678}
+    - Class: 114
+      Script: {instanceID: 32694}
+    - Class: 114
+      Script: {instanceID: 32984}
+    - Class: 114
+      Script: {instanceID: 33002}
+    - Class: 114
+      Script: {instanceID: 33040}
+    - Class: 114
+      Script: {instanceID: 33142}
+    - Class: 114
+      Script: {instanceID: 33224}
+    - Class: 114
+      Script: {instanceID: 46958}
+    - Class: 114
+      Script: {instanceID: 55092}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/Part2_Recycling/Recycle.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -73,6 +169,8 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
       Script: {instanceID: 1998}
     - Class: 114
       Script: {instanceID: 2288}
@@ -82,6 +180,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2570}
     - Class: 114
       Script: {instanceID: 2754}
+    - Class: 114
+      Script: {instanceID: 2842}
     - Class: 114
       Script: {instanceID: 29402}
     - Class: 114
@@ -100,6 +200,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 43934}
     - Class: 114
       Script: {instanceID: 48428}
+    - Class: 114
+      Script: {instanceID: 55092}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -897,7 +999,14 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShowSpawnedTrashName
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChangeScene
   platform: 13
   scenePathNames:
   - Assets/Scenes/Part2_Recycling/Recycle.unity
-  playerPath: "/Volumes/GoogleDrive-114662237994932355470/\u1102\u1162 \u1103\u1173\u1105\u1161\u110B\u1175\u1107\u1173/2022/\u1106\u1169\u11AF\u110B\u1175\u11B8\u1112\u1167\u11BC\u1106\u1175\u1103\u1175\u110B\u1165\u1111\u1173\u1105\u1169\u1100\u1173\u1105\u1162\u1106\u1175\u11BC/AR_teamproject/Builds/Recycle_Test.apk"
+  - Assets/Scenes/Part1_Picking/Pickingroad.unity
+  playerPath: "/Volumes/GoogleDrive-114662237994932355470/\u1102\u1162 \u1103\u1173\u1105\u1161\u110B\u1175\u1107\u1173/2022/\u1106\u1169\u11AF\u110B\u1175\u11B8\u1112\u1167\u11BC\u1106\u1175\u1103\u1175\u110B\u1165\u1111\u1173\u1105\u1169\u1100\u1173\u1105\u1162\u1106\u1175\u11BC/AR_teamproject/Builds/Recycle_TwoScene.apk"

@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Part2_Recycling/Recycle.unity
     guid: 222fe6a3456c244e8bd0f4b48c2cf80b
+  - enabled: 1
+    path: Assets/Scenes/Part1_Picking/Pickingroad.unity
+    guid: fec16e1475af14a78823d6bee4a25f77
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: fd079e2d4e1f941babf4bdd204485560, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ef2ff33bbb6a34d0c8c924052ef95fb4, type: 2}

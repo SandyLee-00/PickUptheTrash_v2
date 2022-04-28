@@ -72,6 +72,7 @@
     <Compile Include="Assets/InventorySystem/Scripts/SC_InventorySystem.cs" />
     <Compile Include="Assets/InventorySystem/Scripts/SC_CharacterController.cs" />
     <Compile Include="Assets/Scripts/Part2_Recycling/ShowSpawnedTrashName.cs" />
+    <Compile Include="Assets/Scripts/ChangeScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/InventorySystem/README.txt" />
