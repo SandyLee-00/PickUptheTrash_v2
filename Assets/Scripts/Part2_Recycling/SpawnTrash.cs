@@ -35,9 +35,6 @@ public class SpawnTrash : MonoBehaviour
 
     //float timer;
 
-    //점수 얻기
-    public int score;
-
     //소리 추가 
 
     void Start()
@@ -55,11 +52,9 @@ public class SpawnTrash : MonoBehaviour
             mousePosition = Input.mousePosition;
 
             //쓰레기 있으면 기존 쓰레기 없애기
-            if (spawnedTrash != null)
+            if (spawnedTrash != null && isthrow == true)
             {
-                //Destroy(spawnedTrash);
-                //audioSource.Play();
-
+                GameManager.score -= 1;
             }
         }
         //쓰레기 없으면 새로 만들기
@@ -67,6 +62,8 @@ public class SpawnTrash : MonoBehaviour
         {
             spawnTrash();
             isthrow = false;
+            //맞으면 점수 +2
+            GameManager.score += 2;
         }
 
         //if (isthrow == true)
@@ -87,7 +84,7 @@ public class SpawnTrash : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(mousePosition);
         RaycastHit hit;
 
-        if (mousePressed && Physics.Raycast(ray, out hit, 2000))
+        if (mousePressed && Physics.Raycast(ray, out hit, 200))
         {
             trashbin = hit.collider.gameObject;
             trashbinType = hit.collider.gameObject.tag;
@@ -104,13 +101,12 @@ public class SpawnTrash : MonoBehaviour
                 //Debug.Log("TrashbinPos : " + trashbinPos);
                 Debug.Log("Sucess!");
                 Destroy(spawnedTrash);
-                score += 2;
-
+                                
             }
             else
             {
+                isthrow = true;
                 Debug.Log("Retry!");
-                score -= 1;
             }
         }
         //if (isthrow == true && spawnedTrash != null)

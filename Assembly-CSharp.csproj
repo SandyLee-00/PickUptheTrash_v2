@@ -68,6 +68,12 @@
     <Compile Include="Assets/Scripts/Part2_Recycling/ThrowTrash.cs" />
     <Compile Include="Assets/Score.cs" />
     <Compile Include="Assets/Scripts/Part2_Recycling/ShowScore.cs" />
+    <Compile Include="Assets/InventorySystem/Scripts/SC_PickItem.cs" />
+    <Compile Include="Assets/InventorySystem/Scripts/SC_InventorySystem.cs" />
+    <Compile Include="Assets/InventorySystem/Scripts/SC_CharacterController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/InventorySystem/README.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
