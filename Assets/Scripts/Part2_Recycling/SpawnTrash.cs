@@ -136,6 +136,8 @@ public class SpawnTrash : MonoBehaviour
         spawnTrashNum = Random.Range(0, totalTrashNum);
         spawnedTrash = Instantiate(trashes[spawnTrashNum], spawnPos, Quaternion.identity);
 
+        spawnedTrash.transform.parent = gameObject.transform;
+
         trashType = spawnedTrash.tag;
         trashPos = spawnedTrash.transform.position;
         
