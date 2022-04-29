@@ -26,6 +26,11 @@ public class GameManager : MonoBehaviour
 
     public void StartButton()
     {
-        SceneManager.LoadScene("Pickingroad");
+        SceneManager.LoadScene("Pickingroad_Sieun");
+    }
+
+    public void InfoButton()
+    {
+        SceneManager.LoadScene("Information");
     }
 }

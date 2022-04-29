@@ -143,7 +143,7 @@ public class SC_InventorySystem : MonoBehaviour
         //Inventory window
         if (windowAnimation < 1)
         {
-            GUILayout.BeginArea(new Rect(10 - (430 * windowAnimation), 100, 900, 1200), GUI.skin.GetStyle("box"));
+            GUILayout.BeginArea(new Rect(10 - (430 * windowAnimation), 300, 900, 1200), GUI.skin.GetStyle("box"));
 
             GUILayout.Label("Inventory", GUILayout.Height(25));
 
@@ -210,11 +210,11 @@ public class SC_InventorySystem : MonoBehaviour
         {
             if (availableItems[itemSlots[itemIndexToDrag]].itemPreview)
             {
-                GUI.Box(new Rect(Input.mousePosition.x + dragOffset.x, Screen.height - Input.mousePosition.y + dragOffset.y, 95, 95), availableItems[itemSlots[itemIndexToDrag]].itemPreview);
+                GUI.Box(new Rect(Input.mousePosition.x + dragOffset.x, Screen.height - Input.mousePosition.y + dragOffset.y, 300, 400), availableItems[itemSlots[itemIndexToDrag]].itemPreview);
             }
             else
             {
-                GUI.Box(new Rect(Input.mousePosition.x + dragOffset.x, Screen.height - Input.mousePosition.y + dragOffset.y, 95, 95), availableItems[itemSlots[itemIndexToDrag]].itemName);
+                GUI.Box(new Rect(Input.mousePosition.x + dragOffset.x, Screen.height - Input.mousePosition.y + dragOffset.y, 300, 400), availableItems[itemSlots[itemIndexToDrag]].itemName);
             }
         }
 
