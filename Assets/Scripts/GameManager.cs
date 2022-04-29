@@ -33,4 +33,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene("Information");
     }
+
+    public void HomeButton()
+    {
+        SceneManager.LoadScene("Intro");
+    }
 }
